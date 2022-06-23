@@ -1,0 +1,40 @@
+nav{
+    background-color: #3d3b3b; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 2;
+    border-bottom: 1px solid black;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  ul{
+    list-style-type: none;
+    margin-top: 13px;
+  }
+  
+  a{
+    text-decoration: none;
+    color:black;
+    font-family: var(--bs-body-font-family);
+    font-size: 25px;
+    text-align: center;
+  }
+
+  a:hover{
+    color:black;
+  }
+  
+  
+  .img-logo{
+    width: 40px;
+  }
+  
+  .logo-header{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+
